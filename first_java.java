@@ -82,3 +82,33 @@ e.x.:
 double myDouble = 9.78;
 int myInt = (int) myDouble; Manually casts double down to int
 */
+
+// Java Operators
+
+/* 
+Arithmentic
+++x to increment
+--x to decrement
+
+Comparison
+== Equal to 
+!= Not equal
+> Greater than
+< Less than
+>= Greater than or equal to
+<= Less than or equal to
+
+Logical
+&& Logical and
+|| Logical or
+! Logical not
+
+Bitwise
+used to perform binary logic with bits of an integer or long integer
+
+& sets each bit to 1 if both bits are 1
+| sets each bit to 1 if any of the two bits is 1
+~ inverts all bits
+^ sets each bit to 1 if only one of the two bits is 1
+
+*/
