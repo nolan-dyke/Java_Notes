@@ -244,3 +244,40 @@ Multidimensional Arrays
 
 int[][] myNumbers = {{1, 2 3, 4}, {5, 6, 7}};
 */
+
+// Methods in Java
+
+/* 
+create a method inside main:
+public class Main {
+    static void myMethod(String fname) {
+        code to be executed
+    }
+}
+
+static means the method belongs to the Main class
+void means the method has no return value
+
+fname is the parameter, designated as a string. can pass as many parameters as you want.
+
+if you want to return a value, you may use a primitive instead of the keyword void and also use the 
+return keyword in the method.
+
+Method overloading -> multiple methods can have the same name with different parameters
+
+e.x.:
+static int plusMethod(int x, int y) {
+  return x + y;
+}
+
+static double plusMethod(double x, double y) {
+  return x + y;
+}
+
+public static void main(String[] args) {
+  int myNum1 = plusMethod(8, 5);
+  double myNum2 = plusMethod(4.3, 6.26);
+  System.out.println("int: " + myNum1);
+  System.out.println("double: " + myNum2);
+}
+*/
